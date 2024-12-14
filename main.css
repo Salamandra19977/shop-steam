@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: #17202a;
+	border-bottom: 3px solid white;
+	position: sticky;
+	top: 0;
+}
+
+.container {
+	background: #17202a;
+	max-width: 1024px;
+	width: 100%;
+	padding: 15px;
+	margin: 0 auto;
+}
+.container::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+img {
+	height: 50px;
+	float: left;
+}
+
+nav {
+	background: black
+	width: 450px;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	margin: 0 10px;
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+}
+
+nav a:hover {
+	color: gray;
+}
+
+a {
+	text-decoration: none;
+}
+
+.add_header {
+	background: #17202a;
+	border-bottom: 3px solid white;
+	text-align: center;
+}
+
+.slogan {
+	color: white;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	margin: 50px 0;
+}
+.btn {
+	background: white;
+	width: 150px;
+	margin: 0 auto;
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 50px;
+	color: black;
+}
+
+nav ul li:last-child {
+	background: white;
+	border-radius: 5px;
+}
+
+.login {
+	color: black;
+}
+
+.articles {
+	float: left;
+	width: 65%;
+	padding: 10px;
+	border: 1px solid black;
+}
+.articles::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.content {
+	background: #d5d8dc;
+}
+
+.content > .container {
+	background: #808b96;
+}
+
+.article_text {
+	float: left;
+	border: 1px solid black;
+	width: 500px;
+}
+
+.heading {
+	font-size: 20px;
+}
+
+.desc {
+	font-size: 15px;
+}
+
+.date {
+	font-size: 10px;
+	margin-top: 5px;
+}
+
+.article_image {
+	height: 150px;
+	width: 150px;
+	float: right;
+}
+
+.article_image > img {
+	width: 100%;
+	height: 100%;
+}
+
+.article::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.article {
+	margin-bottom: 10px;
+}
+
+.sidebar {
+	border: 1px solid black;
+	float: right;
+	width: 28%;
+}
+
+.contact-heading {
+	color: #fff;
+	margin: 20px 0;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.contact-form > input, .btn {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 25px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.btn {
+	background: blue;
+	color: white;
+}
